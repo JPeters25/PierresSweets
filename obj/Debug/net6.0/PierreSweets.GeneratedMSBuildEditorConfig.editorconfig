@@ -1,0 +1,84 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PierreSweets
+build_property.RootNamespace = PierreSweets
+build_property.ProjectDir = c:\Users\jpete\OneDrive\Desktop\Coding\PierreSweets.Solution\PierreSweets\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\jpete\OneDrive\Desktop\Coding\PierreSweets.Solution\PierreSweets
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/jpete/OneDrive/Desktop/Coding/PierreSweets.Solution/PierreSweets/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jpete/OneDrive/Desktop/Coding/PierreSweets.Solution/PierreSweets/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jpete/OneDrive/Desktop/Coding/PierreSweets.Solution/PierreSweets/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jpete/OneDrive/Desktop/Coding/PierreSweets.Solution/PierreSweets/Views/Flavors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxhdm9yc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jpete/OneDrive/Desktop/Coding/PierreSweets.Solution/PierreSweets/Views/Flavors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxhdm9yc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jpete/OneDrive/Desktop/Coding/PierreSweets.Solution/PierreSweets/Views/Flavors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxhdm9yc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jpete/OneDrive/Desktop/Coding/PierreSweets.Solution/PierreSweets/Views/Flavors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxhdm9yc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jpete/OneDrive/Desktop/Coding/PierreSweets.Solution/PierreSweets/Views/Flavors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxhdm9yc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jpete/OneDrive/Desktop/Coding/PierreSweets.Solution/PierreSweets/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jpete/OneDrive/Desktop/Coding/PierreSweets.Solution/PierreSweets/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jpete/OneDrive/Desktop/Coding/PierreSweets.Solution/PierreSweets/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jpete/OneDrive/Desktop/Coding/PierreSweets.Solution/PierreSweets/Views/Treats/AddFlavors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlYXRzXEFkZEZsYXZvcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jpete/OneDrive/Desktop/Coding/PierreSweets.Solution/PierreSweets/Views/Treats/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlYXRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jpete/OneDrive/Desktop/Coding/PierreSweets.Solution/PierreSweets/Views/Treats/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlYXRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jpete/OneDrive/Desktop/Coding/PierreSweets.Solution/PierreSweets/Views/Treats/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlYXRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jpete/OneDrive/Desktop/Coding/PierreSweets.Solution/PierreSweets/Views/Treats/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlYXRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/jpete/OneDrive/Desktop/Coding/PierreSweets.Solution/PierreSweets/Views/Treats/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJlYXRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
