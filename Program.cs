@@ -4,7 +4,7 @@ using System.IO;
 using Microsoft.AspNetCore.Hosting;
 
 
-namespace PierreSweets
+namespace PierresTreats
 {
   public class Program
   {

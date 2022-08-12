@@ -7,9 +7,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.AspNetCore.Identity;
 
-using PierreSweets.Models;
+using PierresTreats.Models;
 
-namespace PierreSweets
+namespace PierresTreats
 {
   public class Startup
   {
@@ -28,7 +28,7 @@ namespace PierreSweets
       services.AddMvc();
 
       services.AddEntityFrameworkMySql()
-        .AddDbContext<PierreSweetsContext>(options => options
+        .AddDbContext<PierresTreatsContext>(options => options
         .UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
     }
 

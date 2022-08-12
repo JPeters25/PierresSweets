@@ -3,12 +3,12 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using PierreSweets.Models;
+using PierresTreats.Models;
 
-namespace PierreSweets.Migrations
+namespace PierresTreats.Migrations
 {
-    [DbContext(typeof(PierreSweetsContext))]
-    partial class PierreSweetsContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(PierresTreatsContext))]
+    partial class PierresTreatsContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
@@ -145,7 +145,7 @@ namespace PierreSweets.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("PierreSweets.Models.ApplicationUser", b =>
+            modelBuilder.Entity("PierresTreats.Models.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("varchar(255) CHARACTER SET utf8mb4");
@@ -209,7 +209,7 @@ namespace PierreSweets.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
-            modelBuilder.Entity("PierreSweets.Models.Flavor", b =>
+            modelBuilder.Entity("PierresTreats.Models.Flavor", b =>
                 {
                     b.Property<int>("FlavorId")
                         .ValueGeneratedOnAdd()
@@ -223,7 +223,7 @@ namespace PierreSweets.Migrations
                     b.ToTable("Flavors");
                 });
 
-            modelBuilder.Entity("PierreSweets.Models.FlavorTreat", b =>
+            modelBuilder.Entity("PierresTreats.Models.FlavorTreat", b =>
                 {
                     b.Property<int>("FlavorTreatId")
                         .ValueGeneratedOnAdd()
@@ -244,7 +244,7 @@ namespace PierreSweets.Migrations
                     b.ToTable("FlavorTreat");
                 });
 
-            modelBuilder.Entity("PierreSweets.Models.Treat", b =>
+            modelBuilder.Entity("PierresTreats.Models.Treat", b =>
                 {
                     b.Property<int>("TreatId")
                         .ValueGeneratedOnAdd()
@@ -274,7 +274,7 @@ namespace PierreSweets.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("PierreSweets.Models.ApplicationUser", null)
+                    b.HasOne("PierresTreats.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -283,7 +283,7 @@ namespace PierreSweets.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("PierreSweets.Models.ApplicationUser", null)
+                    b.HasOne("PierresTreats.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -298,7 +298,7 @@ namespace PierreSweets.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("PierreSweets.Models.ApplicationUser", null)
+                    b.HasOne("PierresTreats.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -307,22 +307,22 @@ namespace PierreSweets.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("PierreSweets.Models.ApplicationUser", null)
+                    b.HasOne("PierresTreats.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("PierreSweets.Models.FlavorTreat", b =>
+            modelBuilder.Entity("PierresTreats.Models.FlavorTreat", b =>
                 {
-                    b.HasOne("PierreSweets.Models.Flavor", "Flavor")
+                    b.HasOne("PierresTreats.Models.Flavor", "Flavor")
                         .WithMany("JoinEntities")
                         .HasForeignKey("FlavorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("PierreSweets.Models.Treat", "Treat")
+                    b.HasOne("PierresTreats.Models.Treat", "Treat")
                         .WithMany("JoinEntities")
                         .HasForeignKey("TreatId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -333,21 +333,21 @@ namespace PierreSweets.Migrations
                     b.Navigation("Treat");
                 });
 
-            modelBuilder.Entity("PierreSweets.Models.Treat", b =>
+            modelBuilder.Entity("PierresTreats.Models.Treat", b =>
                 {
-                    b.HasOne("PierreSweets.Models.ApplicationUser", "User")
+                    b.HasOne("PierresTreats.Models.ApplicationUser", "User")
                         .WithMany()
                         .HasForeignKey("UserId");
 
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("PierreSweets.Models.Flavor", b =>
+            modelBuilder.Entity("PierresTreats.Models.Flavor", b =>
                 {
                     b.Navigation("JoinEntities");
                 });
 
-            modelBuilder.Entity("PierreSweets.Models.Treat", b =>
+            modelBuilder.Entity("PierresTreats.Models.Treat", b =>
                 {
                     b.Navigation("JoinEntities");
                 });
