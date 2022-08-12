@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using PierreSweets.Models;
 using System.Collections.Generic;
 using System.Linq;
-// using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace PierreSweets.Controllers
 {
@@ -30,7 +30,7 @@ namespace PierreSweets.Controllers
     [HttpPost]
     public ActionResult Create(Flavor flavor)
     {
-      _db.Categories.Add(flavor);
+      _db.Flavors.Add(flavor);
       _db.SaveChanges();
       return RedirectToAction("Index");
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\jpete\\OneDrive\\Desktop\\Coding\\PierreSweets.Solution\\PierreSweets\\PierreSweets.csproj": {}
+    "C:\\Users\\jpete\\OneDrive\\Desktop\\Coding\\PierreSweets.Solution\\PierreSweets\\PierreSweets.csproj": {}
   },
   "projects": {
-    "c:\\Users\\jpete\\OneDrive\\Desktop\\Coding\\PierreSweets.Solution\\PierreSweets\\PierreSweets.csproj": {
+    "C:\\Users\\jpete\\OneDrive\\Desktop\\Coding\\PierreSweets.Solution\\PierreSweets\\PierreSweets.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\jpete\\OneDrive\\Desktop\\Coding\\PierreSweets.Solution\\PierreSweets\\PierreSweets.csproj",
+        "projectUniqueName": "C:\\Users\\jpete\\OneDrive\\Desktop\\Coding\\PierreSweets.Solution\\PierreSweets\\PierreSweets.csproj",
         "projectName": "PierreSweets",
-        "projectPath": "c:\\Users\\jpete\\OneDrive\\Desktop\\Coding\\PierreSweets.Solution\\PierreSweets\\PierreSweets.csproj",
+        "projectPath": "C:\\Users\\jpete\\OneDrive\\Desktop\\Coding\\PierreSweets.Solution\\PierreSweets\\PierreSweets.csproj",
         "packagesPath": "C:\\Users\\jpete\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\jpete\\OneDrive\\Desktop\\Coding\\PierreSweets.Solution\\PierreSweets\\obj\\",
+        "outputPath": "C:\\Users\\jpete\\OneDrive\\Desktop\\Coding\\PierreSweets.Solution\\PierreSweets\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jpete\\AppData\\Roaming\\NuGet\\NuGet.Config"

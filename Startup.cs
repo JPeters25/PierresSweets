@@ -5,11 +5,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
-using.Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity;
 
-using Factory.Models;
+using PierreSweets.Models;
 
-namespace Factory
+namespace PierreSweets
 {
   public class Startup
   {
@@ -28,7 +28,7 @@ namespace Factory
       services.AddMvc();
 
       services.AddEntityFrameworkMySql()
-        .AddDbContext<FactoryContext>(options => options
+        .AddDbContext<PierreSweetsContext>(options => options
         .UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
     }
 

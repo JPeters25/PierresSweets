@@ -1,6 +1,6 @@
 namespace PierreSweets.Models
 {
-  public class CategoryRecipe
+  public class FlavorTreat
   {
     public int FlavorTreatId { get; set; }
     public int FlavorId { get; set; }

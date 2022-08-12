@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/2N53QOEnI8s2ro1H738+YdyXoeE99VUj0PYubRJVTSw5S4lhbsnIVctOpZjz/1qGZirv/aEJtj6SOGYVVA7Mw==",
+  "dgSpecHash": "jVdUaa3hluUrb7OSccSY1lXQkVvXntQfosIydaQrCL0B67qmdOJFQMNH2v7Uff/VC9umPjN7BZdAfEew5Luj9w==",
   "success": true,
-  "projectFilePath": "c:\\Users\\jpete\\OneDrive\\Desktop\\Coding\\PierreSweets.Solution\\PierreSweets\\PierreSweets.csproj",
+  "projectFilePath": "C:\\Users\\jpete\\OneDrive\\Desktop\\Coding\\PierreSweets.Solution\\PierreSweets\\PierreSweets.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jpete\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\jpete\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
