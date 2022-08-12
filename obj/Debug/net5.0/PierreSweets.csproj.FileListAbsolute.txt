@@ -55,3 +55,4 @@ C:\Users\jpete\OneDrive\Desktop\Coding\PierreSweets.Solution\PierreSweets\obj\De
 C:\Users\jpete\OneDrive\Desktop\Coding\PierreSweets.Solution\PierreSweets\obj\Debug\net5.0\PierreSweets.pdb
 C:\Users\jpete\OneDrive\Desktop\Coding\PierreSweets.Solution\PierreSweets\obj\Debug\net5.0\PierreSweets.genruntimeconfig.cache
 C:\Users\jpete\OneDrive\Desktop\Coding\PierreSweets.Solution\PierreSweets\obj\Debug\net5.0\ref\PierreSweets.dll
+C:\Users\jpete\OneDrive\Desktop\Coding\PierreSweets.Solution\PierreSweets\bin\Debug\net5.0\appsettings.json
