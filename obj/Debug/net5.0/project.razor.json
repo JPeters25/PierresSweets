@@ -15644,11 +15644,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\jpete\\OneDrive\\Desktop\\Coding\\PierreSweets.Solution\\PierreSweets\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\jpete\\OneDrive\\Desktop\\Coding\\PierreSweets.Solution\\PierreSweets\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
